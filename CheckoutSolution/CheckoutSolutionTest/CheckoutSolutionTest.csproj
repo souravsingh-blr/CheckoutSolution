@@ -53,6 +53,12 @@
     <Compile Include="CheckoutEngineTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CheckoutSolution\CheckoutSolution.csproj">
+      <Project>{904E6482-7C8A-46CB-AB46-E536F69715FE}</Project>
+      <Name>CheckoutSolution</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
